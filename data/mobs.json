@@ -1,0 +1,9453 @@
+[
+  {
+    "identifier": "100_B_mavuong_1",
+    "name": "Ma vương",
+    "entityClass": "CustomSkeletonWither",
+    "level": 100,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 30.0,
+    "damage": 0.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_AXE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "DIAMOND_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "DIAMOND_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "DIAMOND_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "57e55d7260aa3b04e6e0068c1623a75c357782774edd4aff1d0d625f79d9d4de"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "slow2",
+      "rapid",
+      "boss",
+      "lowwander"
+    ],
+    "spells": [
+      "fbolt3",
+      "beam2",
+      "melodabomb",
+      "leap",
+      "invisible2",
+      "mana3",
+      "reflect5"
+    ],
+    "drops": [
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.2
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "10_C_skeleton_sword",
+    "name": "Xương khô",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 2.0,
+    "damage": 0.9,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-12
+      }
+    ]
+  },
+  {
+    "identifier": "10_D_skeleton_bow",
+    "name": "Xương khô",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.1,
+    "damage": 0.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "arrow2",
+      "ranged",
+      "fast1"
+    ],
+    "spells": [
+      "beam2",
+      "aoearrow2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "10_D_spider_2",
+    "name": "Nhện hang",
+    "entityClass": "CustomCaveSpider",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.0,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop"
+    ],
+    "spells": [
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "to_nhen_cuong_luc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "10_N_cuop",
+    "name": "Cướp cạn",
+    "entityClass": "CustomZombieHusk",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 0.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "SHEARS",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "rapid"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "10_N_skeleton_sword",
+    "name": "Xương khô",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.0,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "fast1"
+    ],
+    "spells": [
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "10_N_zombie",
+    "name": "Thây ma cổ mộ",
+    "entityClass": "CustomZombie",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9b9b1b83e5f8519d945c35ac1f838f552a6ebe0acec2048ffde500d8ad4fb3cb"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "brawler2",
+      "beam1"
+    ],
+    "drops": [
+      {
+        "item": "sokae",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.7
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "12_N_wild_pig",
+    "name": "Heo nổi loạn",
+    "entityClass": "CustomPig",
+    "level": 12,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.1,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast2",
+      "nodrop"
+    ],
+    "spells": [
+      "leap",
+      "beam"
+    ],
+    "drops": [
+      {
+        "item": "pig_meat",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "da_heo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "identifier": "13_C_spider_1",
+    "name": "Nhện phiến tử",
+    "entityClass": "CustomSpider",
+    "level": 13,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 2.8,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slow1"
+    ],
+    "spells": [
+      "beam1"
+    ],
+    "drops": [
+      {
+        "item": "to_nhen_cuong_luc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.4
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "spider_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-32
+      }
+    ]
+  },
+  {
+    "identifier": "13_N_spider_1",
+    "name": "Nhện phiến tử",
+    "entityClass": "CustomSpider",
+    "level": 13,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.5,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slow1"
+    ],
+    "spells": [
+      "beam1",
+      "slow1",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "to_nhen_cuong_luc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.4
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "spider_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "15_B_wild_pig_boss",
+    "name": "Heo đầu đàn",
+    "entityClass": "CustomPig",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 10.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast2",
+      "boss",
+      "nodrop",
+      "rapid"
+    ],
+    "spells": [
+      "brawler4",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "pig_meat",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.9
+      },
+      {
+        "item": "da_heo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.6
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-17
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      }
+    ]
+  },
+  {
+    "identifier": "15_C_vex_dead_bow",
+    "name": "Vong linh",
+    "entityClass": "CustomVex",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.8,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ChinnSu"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "arrow3",
+      "ranged"
+    ],
+    "spells": [
+      "teleport3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "15_D_vex_dead_bow",
+    "name": "Vong linh",
+    "entityClass": "CustomVex",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ChinnSu"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "arrow3",
+      "ranged",
+      "nodrop"
+    ],
+    "spells": [
+      "teleport3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "15_N_skeleton_dead",
+    "name": "Xác chết nguyền rủa",
+    "entityClass": "CustomSkeleton",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "Zombie"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "slow1"
+    ],
+    "spells": [
+      "beam1",
+      "brawler3",
+      "gravity2",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      }
+    ]
+  },
+  {
+    "identifier": "15_N_vex_dead_sword",
+    "name": "Vong linh",
+    "entityClass": "CustomVex",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ChinnSu"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "nodrop",
+      "rapid"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "18_B_spider_boss",
+    "name": "Nhện chúa",
+    "entityClass": "CustomSpider",
+    "level": 18,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.3,
+    "maxHP": 12.0,
+    "damage": 0.9,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast3",
+      "boss",
+      "poison1",
+      "lowknockback",
+      "rapid"
+    ],
+    "spells": [
+      "slow3",
+      "gravity3",
+      "shortbeam2",
+      "reflect5",
+      "invisible3"
+    ],
+    "drops": [
+      {
+        "item": "to_nhen_cuong_luc",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 1.0
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6.0000000000000005e-25
+      },
+      {
+        "item": "spider_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "bossdrop-loi_bao_tram",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "1_C_apple",
+    "name": "Táo",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 0.01,
+    "damage": 0.01,
+    "damageRange": 0.01,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e2b35bda5ebdf135f4e71ce49726fbec5739f0adedf01c519e2aea7f51951ea2"
+      }
+    ],
+    "attributes": [
+      "invisible",
+      "passive",
+      "slow3",
+      "nodrop",
+      "baby",
+      "lowwander"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "apple",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "1_C_gold_ingot",
+    "name": "Hộp kho báu",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 0.01,
+    "damage": 0.01,
+    "damageRange": 0.1,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ce81b49e544e77026894457d57bfb854668dd6b3aa9d5b173422169f8caeda19"
+      }
+    ],
+    "attributes": [
+      "invisible",
+      "passive",
+      "slow3",
+      "nodrop",
+      "baby"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "gold_ingot",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "1_C_poison",
+    "name": "Độc",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 0.01,
+    "damage": 0.05,
+    "damageRange": 0.01,
+    "equips": [],
+    "attributes": [
+      "invisible",
+      "slow2",
+      "nodrop",
+      "baby",
+      "lowwander",
+      "poison1"
+    ],
+    "spells": [
+      "slow1"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "1_C_tutorial_chicken",
+    "name": "Gà Ngu Ngok",
+    "entityClass": "CustomChicken",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 0.5,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "passive",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "lil_egg",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "1_C_wheat",
+    "name": "Lúa",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 0.01,
+    "damage": 0.01,
+    "damageRange": 0.01,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6b8572482c79231cd7ebee0ebfcabd477617c8934a1af29763cbecc3a244c218"
+      }
+    ],
+    "attributes": [
+      "invisible",
+      "passive",
+      "slow3",
+      "nodrop",
+      "lowwander"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "wheat",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "20_D_wolf_desert",
+    "name": "Sói hoang mạc",
+    "entityClass": "CustomWolf",
+    "level": 20,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "angrywolf",
+      "fast1"
+    ],
+    "spells": [
+      "brawler2",
+      "leap",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "wolf_teeth",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.4
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "22_D_crab_desesrt",
+    "name": "Cua cát",
+    "entityClass": "CustomSilverfish",
+    "level": 22,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.6,
+    "maxHP": 1.8,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "poison1",
+      "lowknockback",
+      "slow1"
+    ],
+    "spells": [
+      "reflect3"
+    ],
+    "drops": [
+      {
+        "item": "sand_crab_shell",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "23_H_zombie_desert_sword",
+    "name": "Tử sĩ hoang mạc",
+    "entityClass": "CustomSkeleton",
+    "level": 23,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STICK",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ef1f19912920dddec910505a9b554b9231a551fe4e3ad742c64989a9416ce37a"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "reflect2",
+      "shortbeam3",
+      "slow1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      }
+    ]
+  },
+  {
+    "identifier": "24_D_zombie_desert_bow",
+    "name": "Tử binh xương khô",
+    "entityClass": "CustomSkeleton",
+    "level": 24,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ef1f19912920dddec910505a9b554b9231a551fe4e3ad742c64989a9416ce37a"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "arrow3",
+      "ranged",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "beam2",
+      "reflect2",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "mana_pot_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      }
+    ]
+  },
+  {
+    "identifier": "25_B_wolf_daudan_desert",
+    "name": "Sói hoang mạc Đầu Đàn",
+    "entityClass": "CustomWolf",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 15.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "angrywolf",
+      "boss",
+      "fast2",
+      "rapid",
+      "lowknockback"
+    ],
+    "spells": [
+      "brawler4",
+      "leap",
+      "reflect4"
+    ],
+    "drops": [
+      {
+        "item": "wolf_teeth",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.6
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "co_vaise_tc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "identifier": "25_C_rebel_sand_bow",
+    "name": "Quân phản loạn",
+    "entityClass": "CustomZombie",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.9,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "arrow2",
+      "fast1",
+      "horse_llama",
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "bossdrop-ung_ki_si",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "25_D_rebel_sand_bow",
+    "name": "Quân phản loạn",
+    "entityClass": "CustomZombie",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "arrow2",
+      "fast1",
+      "horse_llama",
+      "ranged",
+      "nodrop"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "25_D_skeleton_sand_3",
+    "name": "Hộ vệ xương",
+    "entityClass": "CustomSkeleton",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.85,
+    "maxHP": 1.2,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "GOLDEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "7c3982cabb6251511a4dc13b6f5a32f842cf1a06e1ef5e332b8793db7f250"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "beam2",
+      "leap",
+      "brawler2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "25_H_skeleton_sand_2",
+    "name": "Kẻ gác mộ",
+    "entityClass": "CustomSkeleton",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "durability": 10,
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ede5ef2b704d72092b4e42f0f1364ead12d18867bf0315b0d44c3ee2b3cbc6cb"
+      }
+    ],
+    "attributes": [
+      "lowknockback"
+    ],
+    "spells": [
+      "invisible3",
+      "shortbeam1",
+      "slow1"
+    ],
+    "drops": [
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      }
+    ]
+  },
+  {
+    "identifier": "25_H_zombie_miner",
+    "name": "Fetid Miner",
+    "entityClass": "CustomZombie",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 3.5,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_PICKAXE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "eafc56149026dac25d65d93be3d964e853538e4258d33e26722893d1e265"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "freeze2",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "25_N_pirate",
+    "name": "Cướp biển",
+    "entityClass": "CustomZombie",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "durability": 10,
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "41",
+          "41",
+          "163"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "31",
+          "31",
+          "122"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6a2220232bb81929a66b3b9518b4eda1ea4eba4a95b14ae193769f555d72"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "beam1",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "25_N_rebel_sand_sword",
+    "name": "Quân phản loạn",
+    "entityClass": "CustomZombie",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "slow",
+      "reflect2",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "25_W_crawler_desert",
+    "name": "Rận cát",
+    "entityClass": "CustomSilverfish",
+    "level": 25,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.0,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "fast1"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "sand_crab_shell",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "identifier": "26_H_zombie_miner",
+    "name": "Putrid Miner",
+    "entityClass": "CustomZombie",
+    "level": 26,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 3.5,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_PICKAXE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e5752483ea54ec2028f87742553215b832b16d9a52fe855547d2dccd153a012"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "fast2",
+      "rapid"
+    ],
+    "spells": [
+      "brawler2",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "27_D_zombie_miner_1",
+    "name": "Zombie Miner",
+    "entityClass": "CustomZombie",
+    "level": 27,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_PICKAXE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "3311aa77322dc1bc7ab85bc29731cdd77214a4ed3ad6497449c9d23b27bf88"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "brawler3",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "27_D_zombie_miner_2",
+    "name": "Rabid Miner",
+    "entityClass": "CustomZombie",
+    "level": 27,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_PICKAXE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "67313e30ba36b4f9181a4607c9f3b7c831fc47a14a018e42e9e6c60aa9bb343"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "nodrop",
+      "poison1"
+    ],
+    "spells": [
+      "leap",
+      "brawler3",
+      "mana1"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "28_C_skeleton_sand_1",
+    "name": "Cận vệ Hoàng Đế",
+    "entityClass": "CustomSkeleton",
+    "level": 28,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.1,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "GOLDEN_SWORD",
+        "enchant": "true"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9e6acad4c7a0e3643644834cde482125b15faa0adf69f758ea344081638bf3fe"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1"
+    ],
+    "spells": [
+      "beam3",
+      "gravity2",
+      "reflect2",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-05
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      },
+      {
+        "item": "bossdrop-quan_ki_si",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "28_H_skeleton_sand_1",
+    "name": "Cận vệ Hoàng Đế",
+    "entityClass": "CustomSkeleton",
+    "level": 28,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "GOLDEN_SWORD",
+        "enchant": "true"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9e6acad4c7a0e3643644834cde482125b15faa0adf69f758ea344081638bf3fe"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "lowknockback",
+      "fast1",
+      "rapid"
+    ],
+    "spells": [
+      "beam3",
+      "gravity2",
+      "reflect1",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-05
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.01
+      }
+    ]
+  },
+  {
+    "identifier": "28_N_goblin",
+    "name": "Infant Goblin",
+    "entityClass": "CustomZombie",
+    "level": 28,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback",
+      "rapid"
+    ],
+    "spells": [
+      "shortbeam3",
+      "reflect1"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "28_N_zombie_miner",
+    "name": "Rotting Miner",
+    "entityClass": "CustomZombie",
+    "level": 28,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_PICKAXE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "67313e30ba36b4f9181a4607c9f3b7c831fc47a14a018e42e9e6c60aa9bb343"
+      }
+    ],
+    "attributes": [
+      "lowknockback"
+    ],
+    "spells": [
+      "aoebrawler2",
+      "leap",
+      "reflect2"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.03
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.03
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "29_D_goblin",
+    "name": "Young Goblin",
+    "entityClass": "CustomZombie",
+    "level": 29,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback",
+      "arrow3",
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam3",
+      "reflect2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "2_W_cow",
+    "name": "Bò lạc",
+    "entityClass": "CustomCow",
+    "level": 2,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.5,
+    "damage": 0.3,
+    "damageRange": 0.1,
+    "equips": [],
+    "attributes": [
+      "slow1",
+      "passive",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cow_milk",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "cow_meat",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.6
+      }
+    ]
+  },
+  {
+    "identifier": "2_W_pig",
+    "name": "Heo",
+    "entityClass": "CustomPig",
+    "level": 2,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.5,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast1",
+      "nodrop",
+      "passive"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "pig_meat",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.7
+      }
+    ]
+  },
+  {
+    "identifier": "2_W_rat",
+    "name": "Chuột",
+    "entityClass": "CustomSilverfish",
+    "level": 2,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 0.5,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "randompassive"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "2_W_sheep",
+    "name": "Cừu lạc",
+    "entityClass": "CustomSheep",
+    "level": 2,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.3,
+    "maxHP": 0.5,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast1",
+      "passive",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "sheep_meat",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.7
+      }
+    ]
+  },
+  {
+    "identifier": "30_B_minerboss",
+    "name": "Black Bart",
+    "entityClass": "CustomSkeleton",
+    "level": 30,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 25.0,
+    "damage": 1.0,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "97",
+          "28",
+          "66"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "97",
+          "28",
+          "66"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "97",
+          "28",
+          "66"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "38e26aeed136acd8b14d8654ffd56c9413b331181df5ee36e47972dbec1ca3"
+      }
+    ],
+    "attributes": [
+      "boss",
+      "slow1",
+      "poison1",
+      "rapid"
+    ],
+    "spells": [
+      "freeze3",
+      "beam2",
+      "melodabomb",
+      "reflect2"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.01
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-05
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6.0000000000000005e-31
+      },
+      {
+        "item": "black_bart_heart",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "30_B_skeleton_sand_boss",
+    "name": "Kẻ kế vị Hoàng Đế",
+    "entityClass": "CustomSkeletonWither",
+    "level": 30,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "GOLDEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ef1f19912920dddec910505a9b554b9231a551fe4e3ad742c64989a9416ce37a"
+      }
+    ],
+    "attributes": [
+      "horse_skeleton",
+      "rapid",
+      "boss",
+      "lowknockback",
+      "fast3",
+      "nodrop"
+    ],
+    "spells": [
+      "mana3",
+      "brawler3",
+      "qbeam3",
+      "melodabomb",
+      "beam1",
+      "reflect3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "bossdrop-cung_dia_long",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "30_D_goblin",
+    "name": "Goblin",
+    "entityClass": "CustomZombie",
+    "modelName": "goblin",
+    "level": 30,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "nodrop",
+      "lowknockback",
+      "poison1"
+    ],
+    "spells": [
+      "shortbeam1",
+      "beam2",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "goblin_ear",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.4
+      }
+    ]
+  },
+  {
+    "identifier": "30_H_guardian_water",
+    "name": "Hộ vệ biển cả",
+    "entityClass": "CustomGuardian",
+    "level": 30,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 3.5,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast3",
+      "ranged"
+    ],
+    "spells": [
+      "beam4"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "bossdrop-mu_hai_than",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      },
+      {
+        "item": "bossdrop-giap_hai_than",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "30_W_camapquy_carynville",
+    "name": "Cá mập quỷ",
+    "entityClass": "CustomGuardian",
+    "level": 30,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 0.5,
+    "damage": 0.2,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [
+      "beam1"
+    ],
+    "drops": [
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "vay_ca_map",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "31_C_goblin",
+    "name": "Mature Goblin",
+    "entityClass": "CustomZombie",
+    "modelName": "goblinsoldier",
+    "level": 31,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "lowknockback",
+      "arrow2",
+      "ranged"
+    ],
+    "spells": [
+      "brawler2",
+      "shortbeam1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "goblin_ear",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-17
+      }
+    ]
+  },
+  {
+    "identifier": "31_N_goblin",
+    "name": "Mature Goblin",
+    "entityClass": "CustomZombie",
+    "modelName": "goblinarcher",
+    "level": 31,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast3",
+      "nodrop",
+      "lowknockback",
+      "arrow2",
+      "ranged"
+    ],
+    "spells": [
+      "brawler2",
+      "shortbeam1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "goblin_ear",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "32_D_goblin",
+    "name": "Elder Goblin",
+    "entityClass": "CustomZombie",
+    "modelName": "goblinsoldier",
+    "level": 32,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast3",
+      "lowknockback"
+    ],
+    "spells": [
+      "brawler2",
+      "beam1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "goblin_ear",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-26
+      }
+    ]
+  },
+  {
+    "identifier": "32_D_zombie_water_2",
+    "name": "Thủ hộ đền",
+    "entityClass": "CustomSkeleton",
+    "level": 32,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "213",
+          "217",
+          "204"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "213",
+          "217",
+          "204"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5a6314eac34416ce10ab22c2e1c4dcb472a3feb98d4e04d3fbbb85a9a471b18"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "arrow2",
+      "nodrop",
+      "ranged"
+    ],
+    "spells": [
+      "beam2",
+      "reflect2",
+      "qbeam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "34_H_zombie_water_1",
+    "name": "Người gác đền",
+    "entityClass": "CustomZombie",
+    "level": 34,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 2.0,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "CHAINMAIL_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "CHAINMAIL_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "CHAINMAIL_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9e6acad4c7a0e3643644834cde482125b15faa0adf69f758ea344081638bf3fe"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "rapid"
+    ],
+    "spells": [
+      "beam2",
+      "leap",
+      "reflect3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "36_H_lizard",
+    "name": "Lizard Warrior",
+    "entityClass": "CustomZombieHusk",
+    "level": 36,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "SHIELD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "191",
+          "128",
+          "64"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "172",
+          "115",
+          "57"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "153",
+          "102",
+          "51"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9da2813d4f5acd69ed590c1d8a442b595519dcbc0e17198adfaaaaf15f89b0"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "gravity2",
+      "slow1",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "da_lizard",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "37_C_lizard",
+    "name": "Lizard Warrior",
+    "entityClass": "CustomZombieHusk",
+    "level": 37,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.2,
+    "damage": 1.1,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "191",
+          "128",
+          "64"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "172",
+          "115",
+          "57"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "153",
+          "102",
+          "51"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9da2813d4f5acd69ed590c1d8a442b595519dcbc0e17198adfaaaaf15f89b0"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "lowknockback",
+      "ranged",
+      "arrow2"
+    ],
+    "spells": [
+      "reflect2",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "da_lizard",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "37_D_lizard",
+    "name": "Lizard Warrior",
+    "entityClass": "CustomZombieHusk",
+    "level": 37,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.2,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "191",
+          "128",
+          "64"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "172",
+          "115",
+          "57"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "153",
+          "102",
+          "51"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9da2813d4f5acd69ed590c1d8a442b595519dcbc0e17198adfaaaaf15f89b0"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback",
+      "ranged",
+      "arrow2"
+    ],
+    "spells": [
+      "reflect4",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "da_lizard",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "38_N_lizard",
+    "name": "Lizard Warrior",
+    "entityClass": "CustomZombieHusk",
+    "level": 38,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "191",
+          "128",
+          "64"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "172",
+          "115",
+          "57"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "153",
+          "102",
+          "51"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9da2813d4f5acd69ed590c1d8a442b595519dcbc0e17198adfaaaaf15f89b0"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "shortbeam3",
+      "reflect2",
+      "brawler2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "da_lizard",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.18
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-37
+      }
+    ]
+  },
+  {
+    "identifier": "40_B_goblin_king",
+    "name": "Goblin đầu đàn",
+    "entityClass": "CustomZombie",
+    "level": 40,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "rapid",
+      "lowknockback",
+      "boss",
+      "fast2"
+    ],
+    "spells": [
+      "shortbeam2",
+      "brawler3",
+      "melodabomb",
+      "snore"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "goblin_ear",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "40_B_golem_water_boss",
+    "name": "Thủ hộ Thủy thần",
+    "entityClass": "CustomIronGolem",
+    "level": 40,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "boss",
+      "slow2",
+      "rapid",
+      "lowknockback"
+    ],
+    "spells": [
+      "slow3",
+      "qbeam3",
+      "melodabomb",
+      "reflect3",
+      "snore",
+      "thunder"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "bossdrop-hai_de_truong",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-141
+      }
+    ]
+  },
+  {
+    "identifier": "40_D_bat_blood",
+    "name": "Dơi máu",
+    "entityClass": "CustomBat",
+    "level": 40,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "fast3",
+      "poison1"
+    ],
+    "spells": [
+      "reflect1",
+      "beam3",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "bat_wind",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "40_D_slime_fire",
+    "name": "Quỷ dung nham",
+    "entityClass": "CustomMagmaCube",
+    "level": 40,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.7,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slime3",
+      "slow1",
+      "rapid",
+      "lowknockback"
+    ],
+    "spells": [
+      "fbolt1",
+      "qbeam3",
+      "slimekingburst",
+      "reflect5"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "tinh_cau_lua",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.7
+      }
+    ]
+  },
+  {
+    "identifier": "42_B_lizard",
+    "name": "Lizard Thủ lĩnh",
+    "entityClass": "CustomZombieHusk",
+    "level": 42,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 25.0,
+    "damage": 1.0,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "191",
+          "128",
+          "64"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "172",
+          "115",
+          "57"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "153",
+          "102",
+          "51"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9ca85306b6a69a1231eb02d6319c1539c23962599c385a70ebfa7e2d5da"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "lowknockback",
+      "rapid",
+      "boss"
+    ],
+    "spells": [
+      "beam2",
+      "brawler2",
+      "invisible3",
+      "snore",
+      "leap",
+      "reflect2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "da_lizard",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "42_C_lietquy",
+    "name": "Liệt quỷ",
+    "entityClass": "CustomSkeletonWither",
+    "level": 42,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "a5e1b3835e36ec0bb2e31e1cd2b8036563fd53e377437e368bae512f61566b0"
+      }
+    ],
+    "attributes": [
+      "fast1",
+      "lowknockback"
+    ],
+    "spells": [
+      "shortbeam3",
+      "fbolt2",
+      "reflect2",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "42_H_lietquy",
+    "name": "Liệt quỷ",
+    "entityClass": "CustomSkeletonWither",
+    "level": 42,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 3.7,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "a5e1b3835e36ec0bb2e31e1cd2b8036563fd53e377437e368bae512f61566b0"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "shortbeam3",
+      "fbolt2",
+      "reflect3",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "45_C_dongminh_bow",
+    "name": "Lính đồng minh",
+    "entityClass": "CustomZombieHusk",
+    "level": 45,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.06,
+    "maxHP": 300.0,
+    "damage": 0.06,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ff6fff1e8060ee4d885ca9f15dbc022407a1efbc3c4582869a3da57f84210"
+      }
+    ],
+    "attributes": [
+      "soldier",
+      "nodrop",
+      "arrow5",
+      "ranged"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "45_C_dongminh_sword",
+    "name": "Lính đồng minh",
+    "entityClass": "CustomZombieHusk",
+    "level": 45,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.06,
+    "maxHP": 300.0,
+    "damage": 0.06,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ff6fff1e8060ee4d885ca9f15dbc022407a1efbc3c4582869a3da57f84210"
+      }
+    ],
+    "attributes": [
+      "soldier",
+      "fast2",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "45_C_zombie_demon",
+    "name": "Quỷ cấp thấp",
+    "entityClass": "CustomZombie",
+    "level": 45,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast2"
+    ],
+    "spells": [
+      "brawler2",
+      "leap",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "45_N_zombie_demon",
+    "name": "Quỷ cấp thấp",
+    "entityClass": "CustomZombie",
+    "level": 45,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STONE_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "64",
+          "74",
+          "10"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "39",
+          "24"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "95",
+          "95",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "e4c3d5f6c9a516a182173cd53ef5a1fdc3f52511e1b3a3f567a38177b09bc1"
+      }
+    ],
+    "attributes": [
+      "fast3",
+      "nodrop",
+      "rapid"
+    ],
+    "spells": [
+      "brawler2",
+      "leap",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "48_H_quylua_elde",
+    "name": "Quỷ lửa lang thang",
+    "entityClass": "CustomBlaze",
+    "level": 48,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 3.5,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "ranged",
+      "lowknockback",
+      "fast2",
+      "rapid",
+      "nodrop"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam3",
+      "slow",
+      "reflect3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "4_D_wolf",
+    "name": "Sói hoang",
+    "entityClass": "CustomWolf",
+    "level": 4,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 0.8,
+    "damage": 0.6,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "fast2"
+    ],
+    "spells": [
+      "brawler2"
+    ],
+    "drops": [
+      {
+        "item": "wolf_bone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "wolf_teeth",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "50_C_linh_ma_toc",
+    "name": "Lính ma tộc",
+    "entityClass": "CustomWitch",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.06,
+    "maxHP": 300.0,
+    "damage": 0.06,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STICK",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "soldier"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "50_C_loimaluc_mathanh",
+    "name": "Lõi ma lực",
+    "entityClass": "CustomVillager",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.06,
+    "maxHP": 8.0,
+    "damage": 0.06,
+    "damageRange": 0.06,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "be775ff1daa46b7c2beab563129d34644c5d5f9186bb13c516a5e05f0cd4e451"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "boss",
+      "nodrop",
+      "passive"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "50_C_quylua_hang",
+    "name": "Quỷ lửa",
+    "entityClass": "CustomZombieHusk",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 3.5,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BLAZE_ROD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "243",
+          "29",
+          "6"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "173",
+          "33",
+          "6"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "144",
+          "1",
+          "6"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "4080bbefca87dc0f36536b6508425cfc4b95ba6e8f5e6a46ff9e9cb488a9ed"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast4"
+    ],
+    "spells": [
+      "fbolt2",
+      "qbeam1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 1.0
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-17
+      }
+    ]
+  },
+  {
+    "identifier": "50_C_unknownmonster_mine",
+    "name": "Thủy quái dị biến",
+    "entityClass": "CustomGuardian",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 1.2,
+    "damage": 0.5,
+    "damageRange": 0.5,
+    "equips": [],
+    "attributes": [
+      "fast1",
+      "ranged",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "50_D_linh_bow_mathanh",
+    "name": "Lính canh",
+    "entityClass": "CustomZombieHusk",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.2,
+    "damage": 1.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "b8794ada55ce4f5dd769e1b74aa1622bfb8267c191def08dc774cae48f3176"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "lowwander",
+      "lowknockback",
+      "ranged",
+      "arrow2"
+    ],
+    "spells": [
+      "reflect1",
+      "shortbeam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "50_H_quylua_hang",
+    "name": "Quỷ lửa",
+    "entityClass": "CustomZombieHusk",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BLAZE_ROD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "243",
+          "29",
+          "6"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "173",
+          "33",
+          "6"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "144",
+          "1",
+          "6"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "4080bbefca87dc0f36536b6508425cfc4b95ba6e8f5e6a46ff9e9cb488a9ed"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "nodrop",
+      "fast1"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam3",
+      "brawler3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "50_N_linh_sword_mathanh",
+    "name": "Lính canh",
+    "entityClass": "CustomZombieHusk",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.8,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "b8794ada55ce4f5dd769e1b74aa1622bfb8267c191def08dc774cae48f3176"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "slow1",
+      "lowwander",
+      "lowknockback"
+    ],
+    "spells": [
+      "reflect1",
+      "shortbeam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "52_H_orc_thuong",
+    "name": "Orc thường",
+    "entityClass": "CustomZombie",
+    "level": 52,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "reflect2",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "54_C_golemlua_hang",
+    "name": "Golem lửa",
+    "entityClass": "CustomZombieHusk",
+    "level": 54,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "173",
+          "60",
+          "15"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "8bcb1ddfc8da852d3f258fcb885f2cb5e4b26a7ebcfbd0b33ec1377a235f3a45"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "slow1"
+    ],
+    "spells": [
+      "reflect4",
+      "fbolt3",
+      "qbeam3",
+      "slow3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-19
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "54_N_golemlua_hang",
+    "name": "Golem lửa",
+    "entityClass": "CustomZombieHusk",
+    "level": 54,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "IRON_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "173",
+          "60",
+          "15"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "8bcb1ddfc8da852d3f258fcb885f2cb5e4b26a7ebcfbd0b33ec1377a235f3a45"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "rapid",
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "reflect4",
+      "fbolt3",
+      "qbeam3",
+      "slow3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.13
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-19
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "55_C_orc_tinhanh",
+    "name": "Orc Tinh Anh",
+    "entityClass": "CustomZombie",
+    "level": 55,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "lowknockback"
+    ],
+    "spells": [
+      "reflect1",
+      "slow",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "55_H_orc_tinhanh",
+    "name": "Orc Tinh Anh",
+    "entityClass": "CustomZombie",
+    "level": 55,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "nodrop",
+      "lowknockback"
+    ],
+    "spells": [
+      "reflect3",
+      "slow",
+      "beam2",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "55_W_slime1",
+    "name": "Slime con",
+    "entityClass": "CustomSlime",
+    "level": 55,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.7,
+    "maxHP": 1.0,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "fast1",
+      "slime1"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "chat_nhon",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.05
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "55_W_slime_an_lua",
+    "name": "Slime ăn lúa",
+    "entityClass": "CustomSlime",
+    "level": 55,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 0.5,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slime1",
+      "nodrop",
+      "passive"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "56_C_mahoaboc",
+    "name": "Ma hỏa bộc",
+    "entityClass": "CustomSkeleton",
+    "level": 56,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "TNT",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "119",
+          "8",
+          "1"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "100",
+          "7",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "4080bbefca87dc0f36536b6508425cfc4b95ba6e8f5e6a46ff9e9cb488a9ed"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1"
+    ],
+    "spells": [
+      "reflect1",
+      "fbolt2",
+      "invisible1",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "56_D_mahoaboc",
+    "name": "Ma hỏa bộc",
+    "entityClass": "CustomSkeleton",
+    "level": 56,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.2,
+    "damage": 1.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "TNT",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "119",
+          "8",
+          "1"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "100",
+          "7",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "4080bbefca87dc0f36536b6508425cfc4b95ba6e8f5e6a46ff9e9cb488a9ed"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast2",
+      "nodrop"
+    ],
+    "spells": [
+      "reflect2",
+      "fbolt2",
+      "invisible1",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "bot_xuong_quy",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      }
+    ]
+  },
+  {
+    "identifier": "56_Q_mahoaboc",
+    "name": "Ma hỏa bộc",
+    "entityClass": "CustomSkeleton",
+    "level": 56,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 2.0,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "TNT",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "119",
+          "8",
+          "1"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "100",
+          "7",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "4080bbefca87dc0f36536b6508425cfc4b95ba6e8f5e6a46ff9e9cb488a9ed"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "nodrop"
+    ],
+    "spells": [
+      "fbolt2",
+      "melodabomb",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "58_H_mathu_tree",
+    "name": "Ma thụ",
+    "entityClass": "CustomZombie",
+    "level": 58,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "OAK_SAPLING",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "34",
+          "161",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "23",
+          "146",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "6",
+          "114",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ef57192b194c658aaa88816848cbce7c749466a792b8a7e1d3fafa41c44f3412"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "reflect2",
+      "brawler3",
+      "invisible2",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "go",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "59_B_chua_te_orc",
+    "name": "Chúa tể Orc",
+    "entityClass": "CustomZombie",
+    "level": 59,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [
+      "boss",
+      "lowknockback",
+      "rapid"
+    ],
+    "spells": [
+      "reflect3",
+      "slow",
+      "melodabomb",
+      "shortbeam3",
+      "snore",
+      "thunder"
+    ],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 1.0
+      },
+      {
+        "item": "bossdrop-kho_orc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.9999999999999996e-40
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 5.999999999999999e-06
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "5_C_hinhnom",
+    "name": "Hình nộm",
+    "entityClass": "CustomSkeleton",
+    "level": 5,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 1.5,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "STICK",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ChinnSu"
+      }
+    ],
+    "attributes": [
+      "passive",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "5_W_roamer_axe",
+    "name": "Kẻ phạm tội",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.5,
+    "damage": 0.4,
+    "damageRange": 0.5,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_AXE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [
+      "fast1"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "5_W_roamer_bow",
+    "name": "Kẻ phạm tội",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.5,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [
+      "arrow1",
+      "fast1",
+      "ranged"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "5_W_roamer_sword",
+    "name": "Kẻ phạm tội",
+    "entityClass": "CustomSkeleton",
+    "level": 5,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.5,
+    "damage": 0.4,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [
+      "fast1"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "60_B_quyluaboss_hang",
+    "name": "Quỷ hỏa ám",
+    "entityClass": "CustomBlaze",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "ranged",
+      "lowknockback",
+      "fast4",
+      "rapid",
+      "boss",
+      "nodrop"
+    ],
+    "spells": [
+      "reflect3",
+      "fbolt3",
+      "qbeam3",
+      "slow",
+      "hweenbomb",
+      "snore",
+      "thunder"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 6e-05
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 1.0
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "60_C_quyhiepsi_vulcan",
+    "name": "Vulcan",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 15.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "67c1198fee56596aa3e5d4062183eba191993249fb2760c481f7689a7e1fe827"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "boss",
+      "nodrop",
+      "lowwander"
+    ],
+    "spells": [
+      "fbolt1",
+      "melodabomb"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "60_C_travok_mosse",
+    "name": "Travok",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 7.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "67c1198fee56596aa3e5d4062183eba191993249fb2760c481f7689a7e1fe827"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "slow2",
+      "boss",
+      "nodrop",
+      "lowwander"
+    ],
+    "spells": [
+      "brawler3",
+      "melodabomb",
+      "beam1"
+    ],
+    "drops": [
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "60_C_zombie_damlay",
+    "name": "Quái vật đầm lầy",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.9,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast1"
+    ],
+    "spells": [
+      "reflect1",
+      "beam3",
+      "leap",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "60_D_linhtinhanh_mathanh",
+    "name": "Lính canh Tinh Anh",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.2,
+    "damage": 1.7,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "83152b38dc142588d14fdd38aaa0b54e613860f7d1539535b32c01eb220fe67b"
+      }
+    ],
+    "attributes": [
+      "slow1",
+      "lowknockback",
+      "nodrop",
+      "rapid"
+    ],
+    "spells": [
+      "reflect3",
+      "invisible1",
+      "beam4",
+      "fbolt1"
+    ],
+    "drops": [
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "60_N_slime2",
+    "name": "Slime thường",
+    "entityClass": "CustomSlime",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.75,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "lowknockback",
+      "slime2"
+    ],
+    "spells": [
+      "shortbeam1",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "chat_nhon",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "60_N_tenbatcoc",
+    "name": "Tên bắt cóc",
+    "entityClass": "CustomSkeleton",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.2,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "lowknockback",
+      "slow1"
+    ],
+    "spells": [
+      "brawler3",
+      "gravity2",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 9.999999999999999e-10
+      }
+    ]
+  },
+  {
+    "identifier": "60_N_zombie_damlay",
+    "name": "Quái vật đầm lầy",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast2",
+      "nodrop",
+      "poison1"
+    ],
+    "spells": [
+      "reflect1",
+      "beam3",
+      "leap",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "60_Q_quyluaboss_hang",
+    "name": "Quỷ hỏa ám",
+    "entityClass": "CustomBlaze",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 2.0,
+    "damage": 0.5,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "ranged",
+      "lowknockback",
+      "fast4",
+      "rapid",
+      "boss"
+    ],
+    "spells": [
+      "fbolt3",
+      "beam3",
+      "mana3",
+      "slow",
+      "hweenbomb"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "que_lua",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.4
+      }
+    ]
+  },
+  {
+    "identifier": "60_wolf_jungle",
+    "name": "Sói rừng",
+    "entityClass": "CustomWolf",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.6,
+    "maxHP": 2.5,
+    "damage": 1.2,
+    "damageRange": 1.7,
+    "equips": [],
+    "attributes": [
+      "angrywolf",
+      "nodrop",
+      "fast2"
+    ],
+    "spells": [
+      "reflect1",
+      "brawler3",
+      "invisible2"
+    ],
+    "drops": [
+      {
+        "item": "wolf_teeth",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "61_D_km_warrior",
+    "name": "Adept Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 61,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.3,
+    "damage": 2.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "a4ce3abbfceed1e3b4716be74252c331c293c8139822ba48ec382146bcaf5be"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "slow1"
+    ],
+    "spells": [
+      "reflect1",
+      "invisible2",
+      "beam1",
+      "brawler2"
+    ],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "62_N_km_warrior",
+    "name": "Clumsy Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 62,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.8,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "c8875579bc7577902fbff192b038b1893daca4ca41705bb276b3b8466b169955"
+      }
+    ],
+    "attributes": [
+      "lowknockback"
+    ],
+    "spells": [
+      "invisible3",
+      "reflect2",
+      "slow1",
+      "leap"
+    ],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.15
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "63_H_km_warrior",
+    "name": "Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 63,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 3.2,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "8e24cb9df3c785c331b743bf217dc4c23b265b42b2880ca737a4a2829b0b563"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "lowknockback",
+      "slow1"
+    ],
+    "spells": [
+      "reflect1",
+      "shortbeam2",
+      "snore"
+    ],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.05
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "63_H_slime3",
+    "name": "Slime nước",
+    "entityClass": "CustomSlime",
+    "level": 63,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 3.5,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "nodrop",
+      "fast2",
+      "slime4",
+      "lowknockback"
+    ],
+    "spells": [
+      "shortbeam1",
+      "invisible2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "chat_nhon",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      },
+      {
+        "item": "hp_potion_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.05
+      },
+      {
+        "item": "hp_potion_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0000000000000001e-19
+      },
+      {
+        "item": "mana_pot_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "65_B_mathu_launam_tree",
+    "name": "Ma thụ lâu năm",
+    "entityClass": "CustomZombie",
+    "level": 65,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 30.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "OAK_SAPLING",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "34",
+          "161",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "23",
+          "146",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "6",
+          "114",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "ef57192b194c658aaa88816848cbce7c749466a792b8a7e1d3fafa41c44f3412"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "slow1",
+      "nodrop",
+      "boss",
+      "rapid"
+    ],
+    "spells": [
+      "reflect3",
+      "brawler4",
+      "invisible3",
+      "melodabomb"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_2",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.06
+      },
+      {
+        "item": "go",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "nhanh_go_tc",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.8
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1e-105
+      }
+    ]
+  },
+  {
+    "identifier": "65_B_zombie_damlay",
+    "name": "Chúa tể đầm lầy",
+    "entityClass": "CustomSkeletonStray",
+    "level": 65,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 8.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_AXE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "boss",
+      "rapid",
+      "fast1"
+    ],
+    "spells": [
+      "reflect2",
+      "brawler3",
+      "mana1",
+      "melodabomb",
+      "invisible1"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 6e-29
+      }
+    ]
+  },
+  {
+    "identifier": "65_D_wolf_white",
+    "name": "Sói trắng",
+    "entityClass": "CustomWolf",
+    "level": 65,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.8,
+    "maxHP": 1.5,
+    "damage": 1.8,
+    "damageRange": 2.0,
+    "equips": [],
+    "attributes": [
+      "angrywolf",
+      "nodrop",
+      "fast3",
+      "rapid"
+    ],
+    "spells": [
+      "reflect1",
+      "brawler4",
+      "invisible3"
+    ],
+    "drops": [
+      {
+        "item": "wolf_teeth",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "long_soi_trang",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "68_B_km_lord",
+    "name": "Kino Lord",
+    "entityClass": "CustomSkeleton",
+    "level": 68,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.0,
+    "maxHP": 20.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "d539619bfbfd2fe98e9b548b861f35e8f4de53b7c7f01a734b7b3567ee918eaf"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "boss",
+      "slow2"
+    ],
+    "spells": [
+      "invisible2",
+      "qbeam2",
+      "slow1",
+      "leap",
+      "melodabomb"
+    ],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.1
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0000000000000001e-07
+      }
+    ]
+  },
+  {
+    "identifier": "70_B_quythancodai",
+    "name": "Madusjlm",
+    "entityClass": "CustomSkeletonWither",
+    "level": 70,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 8.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "DIAMOND_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "DIAMOND_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "a5e1b3835e36ec0bb2e31e1cd2b8036563fd53e377437e368bae512f61566b0"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "boss"
+    ],
+    "spells": [
+      "reflect2",
+      "fbolt3",
+      "qbeam3",
+      "slow2",
+      "melodabomb",
+      "mana2",
+      "brawler3"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.8
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "identifier": "70_B_yeuthu_honmang",
+    "name": "Yêu thú hỗn mang",
+    "entityClass": "CustomSkeletonStray",
+    "level": 70,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 8.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [],
+    "attributes": [
+      "lowknockback",
+      "slow1",
+      "boss",
+      "rapid"
+    ],
+    "spells": [
+      "reflect1",
+      "brawler3",
+      "mana1",
+      "hweenbomb",
+      "snore",
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "70_C_quyhiepsi_bazak",
+    "name": "Bazak",
+    "entityClass": "CustomZombieHusk",
+    "level": 70,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 15.0,
+    "damage": 1.0,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "43ec9d27aa2be9795b5a036b1be65c88ce1472902259f616b758d3f369c8f658"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast2",
+      "arrow1",
+      "rapid",
+      "boss",
+      "nodrop",
+      "lowwander",
+      "ranged"
+    ],
+    "spells": [
+      "fbolt3",
+      "qbeam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "70_C_quyhiepsi_belta",
+    "name": "Belta",
+    "entityClass": "CustomZombieHusk",
+    "level": 70,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.01,
+    "maxHP": 15.0,
+    "damage": 0.5,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "956590b0af7ea9ed16f324d91a2dc8ab5742d936a2f7e4d4fe72b8756884d7cb"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "boss",
+      "nodrop",
+      "lowwander"
+    ],
+    "spells": [
+      "fbolt3",
+      "shortbeam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "75_C_quyhiepsi_raknar",
+    "name": "Raknar",
+    "entityClass": "CustomZombieHusk",
+    "level": 75,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 15.0,
+    "damage": 0.2,
+    "damageRange": 1.4,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "956590b0af7ea9ed16f324d91a2dc8ab5742d936a2f7e4d4fe72b8756884d7cb"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "boss",
+      "nodrop"
+    ],
+    "spells": [
+      "fbolt3",
+      "beam2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 6e-29
+      }
+    ]
+  },
+  {
+    "identifier": "80_C_quyhiepsi_alvina",
+    "name": "Alvina",
+    "entityClass": "CustomSkeletonWither",
+    "level": 80,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 3.0,
+    "maxHP": 20.0,
+    "damage": 0.5,
+    "damageRange": 1.6,
+    "equips": [],
+    "attributes": [
+      "lowknockback",
+      "rapid",
+      "boss",
+      "nodrop",
+      "slow2"
+    ],
+    "spells": [
+      "fbolt3",
+      "melodabomb",
+      "invisible2",
+      "brawler2"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_3",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.5
+      }
+    ]
+  },
+  {
+    "identifier": "80_C_quyhiepsi_astaroth",
+    "name": "Astaroth",
+    "entityClass": "CustomZombieHusk",
+    "level": 80,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.06,
+    "maxHP": 150.0,
+    "damage": 0.06,
+    "damageRange": 1.6,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_HOE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "DIAMOND_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "DIAMOND_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "79d893bbd123f946fb7a10677adfe67d9beec5ad8bb72d2e707319cf6a14032e"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "rapid",
+      "boss",
+      "nodrop",
+      "soldier"
+    ],
+    "spells": [
+      "fbolt3",
+      "qbeam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "99_C_quyhiepsi_eugeo",
+    "name": "Eugeo",
+    "entityClass": "CustomZombieHusk",
+    "level": 99,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 2.5,
+    "maxHP": 12.0,
+    "damage": 0.6,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "IRON_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "IRON_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "1d8e6169afcea80a57595e933ba7866f0d25173890157688c880f58d8ef46cea"
+      }
+    ],
+    "attributes": [
+      "lowknockback",
+      "fast1",
+      "boss",
+      "nodrop",
+      "lowwander"
+    ],
+    "spells": [
+      "fbolt3",
+      "qbeam2",
+      "teleport2"
+    ],
+    "drops": [
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 3,
+        "chance": 6e-17
+      }
+    ]
+  },
+  {
+    "identifier": "9_N_rebel_bow",
+    "name": "Quân phản loạn",
+    "entityClass": "CustomZombie",
+    "level": 9,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "arrow2",
+      "fast1",
+      "ranged"
+    ],
+    "spells": [
+      "slow",
+      "beam1",
+      "reflect2"
+    ],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      },
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      }
+    ]
+  },
+  {
+    "identifier": "9_N_rebel_sword",
+    "name": "Quân phản loạn",
+    "entityClass": "CustomZombie",
+    "level": 9,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.9,
+    "maxHP": 1.8,
+    "damage": 0.9,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "55b5b1348c18c49c50633490e3c157be2321d14d21435765386628832bec08f9"
+      }
+    ],
+    "attributes": [
+      "nodrop",
+      "fast1",
+      "rapid"
+    ],
+    "spells": [
+      "beam2",
+      "reflect1"
+    ],
+    "drops": [
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.13
+      },
+      {
+        "item": "mana_pot_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.09
+      }
+    ]
+  },
+  {
+    "identifier": "arcane_blaze",
+    "name": "Blaze Arcanist",
+    "entityClass": "CustomWitch",
+    "level": 34,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BLAZE_ROD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "arcane_flame",
+    "name": "Flame Arcanist",
+    "entityClass": "CustomWitch",
+    "level": 33,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BLAZE_ROD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "arcane_frost",
+    "name": "Frost Arcanist",
+    "entityClass": "CustomWitch",
+    "level": 35,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "PACKED_ICE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "freeze3",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "arcane_frozen",
+    "name": "Frozen Arcanist",
+    "entityClass": "CustomWitch",
+    "level": 36,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "PACKED_ICE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "freeze3",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "arcane_infernal",
+    "name": "Infernal Arcanist",
+    "entityClass": "CustomWitch",
+    "level": 37,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BLAZE_ROD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "bandit_axe",
+    "name": "Bandit Fighter",
+    "entityClass": "CustomSkeleton",
+    "level": 11,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_AXE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "bandit_bow",
+    "name": "Bandit Archer",
+    "entityClass": "CustomSkeleton",
+    "level": 10,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [
+      "arrow1"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "bandit_sword",
+    "name": "Bandit Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 9,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "hansolo"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "beach_crab",
+    "name": "Beach Crab",
+    "entityClass": "CustomSilverfish",
+    "level": 3,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 0.4,
+    "damage": 0.8,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.3
+      }
+    ]
+  },
+  {
+    "identifier": "crypt_skeleton",
+    "name": "Spooky Skeleton",
+    "entityClass": "CustomSkeleton",
+    "level": 4,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "cyclops1",
+    "name": "Infant Cyclops",
+    "entityClass": "CustomZombieHusk",
+    "level": 58,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5562b7a77bcf3bc4d937ac326a88465cddba6495ecc554d03594e6e3dacb284c"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      }
+    ],
+    "attributes": [
+      "baby"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "cyclops2",
+    "name": "Young Cyclops",
+    "entityClass": "CustomZombieHusk",
+    "level": 59,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5562b7a77bcf3bc4d937ac326a88465cddba6495ecc554d03594e6e3dacb284c"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "cyclops3",
+    "name": "Cyclops",
+    "entityClass": "CustomZombieHusk",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5562b7a77bcf3bc4d937ac326a88465cddba6495ecc554d03594e6e3dacb284c"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "cyclops4",
+    "name": "Mature Cyclops",
+    "entityClass": "CustomZombieHusk",
+    "level": 61,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5562b7a77bcf3bc4d937ac326a88465cddba6495ecc554d03594e6e3dacb284c"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "cyclops5",
+    "name": "Elder Cyclops",
+    "entityClass": "CustomZombieHusk",
+    "level": 62,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "5562b7a77bcf3bc4d937ac326a88465cddba6495ecc554d03594e6e3dacb284c"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "103",
+          "85",
+          "47"
+        ]
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_eye",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "cyclops_rindamn",
+    "name": "Rindamn the Savage",
+    "entityClass": "CustomZombieHusk",
+    "level": 65,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 100.0,
+    "damage": 1.0,
+    "damageRange": 1.5,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BONE",
+        "enchant": "true"
+      },
+      {
+        "key": "helmet",
+        "type": "GOLDEN_HELMET",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "GOLDEN_CHESTPLATE",
+        "enchant": "false"
+      },
+      {
+        "key": "leggings",
+        "type": "GOLDEN_LEGGINGS",
+        "enchant": "false"
+      },
+      {
+        "key": "boots",
+        "type": "GOLDEN_BOOTS",
+        "enchant": "false"
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "11185a6384ed7a27184aaf89d4e19032498eef5d1b96d121cc19f69e31ec43"
+      }
+    ],
+    "attributes": [
+      "boss"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "cyclops_thong",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 1.0
+      }
+    ]
+  },
+  {
+    "identifier": "druid1",
+    "name": "Infant Druid",
+    "entityClass": "CustomWitch",
+    "level": 18,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_HOE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "druid_staff",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "druid2",
+    "name": "Young Druid",
+    "entityClass": "CustomWitch",
+    "level": 19,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_HOE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "druid_staff",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "druid3",
+    "name": "Druid",
+    "entityClass": "CustomWitch",
+    "level": 20,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_HOE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "druid_staff",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "druid4",
+    "name": "Mature Druid",
+    "entityClass": "CustomWitch",
+    "level": 21,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_HOE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "druid_staff",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "druid5",
+    "name": "Elder Druid",
+    "entityClass": "CustomWitch",
+    "level": 21,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_HOE",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "shortbeam2"
+    ],
+    "drops": [
+      {
+        "item": "druid_staff",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "drunk_bandit",
+    "name": "Drunken Bandit",
+    "entityClass": "CustomVillager",
+    "level": 3,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "forest_kribri1",
+    "name": "Baby Kribri",
+    "entityClass": "CustomSlime",
+    "level": 3,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slime1"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "forest_kribri2",
+    "name": "Kribri",
+    "entityClass": "CustomSlime",
+    "level": 4,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slime2"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "forest_kribri3",
+    "name": "Elder Kribri",
+    "entityClass": "CustomSlime",
+    "level": 5,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "slime3"
+    ],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.1
+      }
+    ]
+  },
+  {
+    "identifier": "forest_spider",
+    "name": "Forest Spider",
+    "entityClass": "CustomSpider",
+    "level": 7,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "hp_potion_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.07
+      },
+      {
+        "item": "sticky_web",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "gazer1",
+    "name": "Minor Gazer",
+    "entityClass": "CustomWitch",
+    "level": 53,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      },
+      {
+        "key": "offhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "gazer_crystal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "gazer2",
+    "name": "Lesser Gazer",
+    "entityClass": "CustomWitch",
+    "level": 54,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      },
+      {
+        "key": "offhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "gazer_crystal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "gazer3",
+    "name": "Gazer",
+    "entityClass": "CustomWitch",
+    "level": 55,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      },
+      {
+        "key": "offhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "gazer_crystal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "gazer4",
+    "name": "Greater Gazer",
+    "entityClass": "CustomWitch",
+    "level": 56,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      },
+      {
+        "key": "offhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "gazer_crystal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "gazer5",
+    "name": "Major Gazer",
+    "entityClass": "CustomWitch",
+    "level": 57,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      },
+      {
+        "key": "offhand",
+        "type": "EMERALD",
+        "enchant": "false"
+      }
+    ],
+    "attributes": [
+      "ranged"
+    ],
+    "spells": [
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "gazer_crystal",
+        "amount-min": 1,
+        "amount-max": 2,
+        "chance": 0.15
+      }
+    ]
+  },
+  {
+    "identifier": "gift_1",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "19be2e91c5d62f678a6b2d4bbca2c5283e13182c4328d0e87064e17ce6fffb"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_2",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "cdff986f89a8eea6ae2c320c688c24666c3aba1b7738fe89ce36c2fbfa366"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_3",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "32f0489ca126a6e9f9afa59eb491b1853395b582b454fc2ad48027226252d121"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_4",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "918285eab1533bd5a26e27df6555b382f55bc274876416bc35d0794617c5c88"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_5",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "d505b7f8d5d3b912631c5c1ee6cc5b685a8ad4bae9a9552e8fdf7e711951f4"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_6",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "7e8c242c051c894199c8510dad5aace96c2c4cf2e34f4e85a8e1845831ed5ed"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "gift_7",
+    "name": "Hộp quà bí ẩn",
+    "entityClass": "CustomZombie",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 100.0,
+    "maxHP": 0.01,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "9f5b52bdb2556fd7d46c5c848a38c8b8ef153afe7d56db1776d99b533bd0"
+      }
+    ],
+    "attributes": [
+      "baby",
+      "invisible",
+      "randompassive",
+      "slow1",
+      "nodrop"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "hyper_golem",
+    "name": "Thủy Vương Đế",
+    "entityClass": "CustomIronGolem",
+    "level": 37,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 10.0,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "hypergolem",
+      "boss"
+    ],
+    "spells": [
+      "aoebrawler5",
+      "leap"
+    ],
+    "drops": []
+  },
+  {
+    "identifier": "km_warrior1",
+    "name": "Clumsy Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 13,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "140",
+          "88",
+          "181"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "c8875579bc7577902fbff192b038b1893daca4ca41705bb276b3b8466b169955"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.35
+      }
+    ]
+  },
+  {
+    "identifier": "km_warrior2",
+    "name": "Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 14,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "182",
+          "18",
+          "31"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "8e24cb9df3c785c331b743bf217dc4c23b265b42b2880ca737a4a2829b0b563"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.35
+      }
+    ]
+  },
+  {
+    "identifier": "km_warrior3",
+    "name": "Adept Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "143",
+          "107",
+          "83"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "a4ce3abbfceed1e3b4716be74252c331c293c8139822ba48ec382146bcaf5be"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.35
+      }
+    ]
+  },
+  {
+    "identifier": "km_warrior4",
+    "name": "Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 14,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "255",
+          "201",
+          "14"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "255",
+          "201",
+          "14"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "255",
+          "201",
+          "14"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "3a8629abf9b06e21ea9ad3f45eb7d6cb4e1ed6bf9630a728a4a325ce7081b65d"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.35
+      }
+    ]
+  },
+  {
+    "identifier": "km_warrior5",
+    "name": "Adept Kino Warrior",
+    "entityClass": "CustomSkeleton",
+    "level": 15,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "WOODEN_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "28",
+          "179",
+          "255"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "d539619bfbfd2fe98e9b548b861f35e8f4de53b7c7f01a734b7b3567ee918eaf"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "kino_cap",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.35
+      }
+    ]
+  },
+  {
+    "identifier": "kobold1",
+    "name": "Minor Kobold",
+    "entityClass": "CustomZombie",
+    "level": 35,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 1.5,
+    "damage": 1.3,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_HOE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "57",
+          "81",
+          "37"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "78",
+          "126",
+          "131"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "94",
+          "9",
+          "9"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "8856beeadb3ce571d2e4526f8c21a84cf3b84b38c61fbb1fd9582c643b136e"
+      }
+    ],
+    "attributes": [
+      "fast2",
+      "nodrop"
+    ],
+    "spells": [
+      "aoebrawler2",
+      "brawler2",
+      "shortbeam1",
+      "beam3"
+    ],
+    "drops": [
+      {
+        "item": "manh_giap_vo",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.02
+      },
+      {
+        "item": "blackstone",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.0002
+      }
+    ]
+  },
+  {
+    "identifier": "meloda_cult1",
+    "name": "Clumsy Melodian Cultist",
+    "entityClass": "CustomSkeleton",
+    "level": 43,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "f1d8494d382feb5e7434daa2fe553b4d6b51269717cd12309d331399efdbbd49"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "meloda_cult2",
+    "name": "Inept Melodian Cultist",
+    "entityClass": "CustomSkeleton",
+    "level": 44,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "true"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "545b4b96c2e380c289e15d92c80beeab542d9ea18b8733af916ca553fb76"
+      }
+    ],
+    "attributes": [
+      "arrow3",
+      "ranged"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "meloda_cult3",
+    "name": "Melodian Cultist",
+    "entityClass": "CustomSkeleton",
+    "level": 45,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "f1d8494d382feb5e7434daa2fe553b4d6b51269717cd12309d331399efdbbd49"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "meloda_cult4",
+    "name": "Gifted Melodian Cultist",
+    "entityClass": "CustomSkeleton",
+    "level": 46,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "true"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "60",
+          "5",
+          "21"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "545b4b96c2e380c289e15d92c80beeab542d9ea18b8733af916ca553fb76"
+      }
+    ],
+    "attributes": [
+      "arrow3",
+      "ranged"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "meloda_cult5",
+    "name": "Adept Melodian Cultist",
+    "entityClass": "CustomSkeleton",
+    "level": 47,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.2,
+    "damage": 1.2,
+    "damageRange": 1.2,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "DIAMOND_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "0",
+          "0",
+          "97"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "f1d8494d382feb5e7434daa2fe553b4d6b51269717cd12309d331399efdbbd49"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "orcish1",
+    "name": "Orcish Infant",
+    "entityClass": "CustomZombie",
+    "level": 48,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "BOW",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "orcish2",
+    "name": "Orcish Warrior",
+    "entityClass": "CustomZombie",
+    "level": 49,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SWORD",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "orcish3",
+    "name": "Orcish Berserker",
+    "entityClass": "CustomZombie",
+    "level": 50,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_AXE",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "orcish4",
+    "name": "Orcish Brute",
+    "entityClass": "CustomZombie",
+    "level": 51,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.2,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "orcish5",
+    "name": "Orcish Brute",
+    "entityClass": "CustomZombie",
+    "level": 52,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [
+      {
+        "key": "mainhand",
+        "type": "IRON_SHOVEL",
+        "enchant": "false"
+      },
+      {
+        "key": "chestplate",
+        "type": "LEATHER_CHESTPLATE",
+        "enchant": "false",
+        "color": [
+          "68",
+          "79",
+          "34"
+        ]
+      },
+      {
+        "key": "leggings",
+        "type": "LEATHER_LEGGINGS",
+        "enchant": "false",
+        "color": [
+          "48",
+          "33",
+          "21"
+        ]
+      },
+      {
+        "key": "boots",
+        "type": "LEATHER_BOOTS",
+        "enchant": "false",
+        "color": [
+          "50",
+          "47",
+          "43"
+        ]
+      },
+      {
+        "key": "helmet",
+        "type": "PLAYER_HEAD",
+        "owner": "6655fb261dbb4deed66afe45cfe493971f3c8fc8c18e22854fe416d34eee67e"
+      }
+    ],
+    "attributes": [],
+    "spells": [],
+    "drops": [
+      {
+        "item": "orcish_metal",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.2
+      }
+    ]
+  },
+  {
+    "identifier": "other_horse",
+    "name": "Ngựa",
+    "entityClass": "CustomHorse",
+    "level": 6,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.5,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "passive"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "test",
+    "name": "Ma hỏa bộc",
+    "entityClass": "CustomSkeleton",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.6,
+    "maxHP": 1.4,
+    "damage": 1.1,
+    "damageRange": 1.4,
+    "equips": [],
+    "attributes": [
+      "lowknockback",
+      "fast4",
+      "rapid",
+      "nodrop"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2",
+      "brawler2",
+      "mana1",
+      "slow",
+      "melodaice"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.02
+      }
+    ]
+  },
+  {
+    "identifier": "test1",
+    "name": "﻿Ngu",
+    "entityClass": "CustomBat",
+    "level": 60,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 0.6,
+    "maxHP": 1.4,
+    "damage": 1.1,
+    "damageRange": 1.4,
+    "equips": [],
+    "attributes": [
+      "enderdragon",
+      "fast4"
+    ],
+    "spells": [
+      "fbolt2",
+      "beam2",
+      "brawler2",
+      "mana1",
+      "slow",
+      "melodaice"
+    ],
+    "drops": [
+      {
+        "item": "ma_thach_1",
+        "amount-min": 1,
+        "amount-max": 1,
+        "chance": 0.02
+      }
+    ]
+  },
+  {
+    "identifier": "wild_bat",
+    "name": "Dơi ngốc nghếch",
+    "entityClass": "CustomBat",
+    "level": 1,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "passive",
+      "nodrop",
+      "slow3"
+    ],
+    "spells": [],
+    "drops": []
+  },
+  {
+    "identifier": "wild_spider",
+    "name": "Nhện độc",
+    "entityClass": "CustomSpider",
+    "level": 8,
+    "prefixes": [],
+    "suffixes": [],
+    "exp": 1.0,
+    "maxHP": 1.0,
+    "damage": 1.0,
+    "damageRange": 1.0,
+    "equips": [],
+    "attributes": [
+      "fast1",
+      "nodrop"
+    ],
+    "spells": [
+      "brawler2"
+    ],
+    "drops": []
+  }
+]
